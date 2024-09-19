@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Ödeme Makbuzu</title>
+
+		<style>
+			body {
+				font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+				color: #555;
+				margin: 0;
+				padding: 0;
+			}
+			.invoice-box {
+				max-width: 800px;
+				margin: auto;
+				padding: 30px;
+				border: 1px solid #eee;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+				font-size: 16px;
+				line-height: 24px;
+			}
+			.top-section {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 40px;
+			}
+            .top-section div {
+                flex: 1; 
+            }
+            .logo-container {
+                display: flex;
+                justify-content: flex-start; 
+            }
+			.logo {
+				width: 100px;
+				height: auto;
+                max-width: 100px;
+			}
+            .date-container {
+                text-align: right;
+            }
+
+			.name {
+				text-align: center;
+				font-size: 32px;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			.amount {
+				text-align: center;
+				font-size: 24px;
+				margin-bottom: 10px;
+			}
+			.amount-text {
+				text-align: center;
+				font-size: 18px;
+				font-style: italic;
+				margin-bottom: 30px;
+			}
+			.brans {
+				text-align: center;
+				font-size: 20px;
+				margin-top: 40px;
+			}
+			.signature {
+				text-align: right;
+				margin-top: 50px;
+			}
+			@media print {
+				.invoice-box {
+					max-width: unset;
+					box-shadow: none;
+					border: 0px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="invoice-box">
+			<div class="top-section">
+                <div class="logo-container">
+                    <img class="logo" src="png/zk.png" alt="Logo">
+                </div>
+            <div class="date-container">
+                    <p>Tarih: <span id="currentDate"></span></p>
+                </div>
+            </div>
+
+			<div class="name">
+				<span id="fullName"></span>
+			</div>
+
+			<div class="amount">
+				Ödeme Tutarı: <span id="amountNumeric"></span> TL
+			</div>
+
+			<div class="amount-text">
+				(<span id="amountText"></span> Türk Lirası)
+			</div>
+
+			<div class="brans">
+				Branş: <span id="brans"></span>
+			</div>
+
+			<div class="signature">
+				<p>İmza: ____________________</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>../png/logo.png</file>
+  </qresource>
+  <qresource prefix="anasayfa">
+    <file>../png/logo.png</file>
+  </qresource>
+  <qresource prefix="giris">
+    <file>../png/login.png</file>
+  </qresource>
+  <qresource prefix="odeme">
+    <file>../png/odeme.png</file>
+  </qresource>
+  <qresource prefix="yoklama">
+    <file>../png/yoklama.png</file>
+  </qresource>
+  <qresource prefix="id">
+    <file>../png/id.png</file>
+  </qresource>
+  <qresource prefix="cikis">
+    <file>../png/cikis.png</file>
+  </qresource>
+  <qresource prefix="egitmen">
+    <file>../png/egitmen.png</file>
+  </qresource>
+  <qresource prefix="kasa">
+    <file>../png/kasa.png</file>
+  </qresource>
+  <qresource prefix="kapat">
+    <file>../png/kapat.png</file>
+  </qresource>
+</RCC>
