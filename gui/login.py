@@ -409,12 +409,11 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.label.setText(_translate("Form", "Sanata\n"
-"Açılan\n"
-"Yepyeni Bir\n"
-"Pencere"))
-        self.label_2.setText(_translate("Form", "\"Dünya dediğimiz, üzerine hayal gücümüzü\n"
-"resmedeceğimiz bir tuvalden başka bir şey değildir.\""))
+        self.label.setText(_translate("Form", "Bugün\n"
+"Günlerden\n"
+"Ne?"))
+        self.label_2.setText(_translate("Form", "\"Günden güne artar günler\n"
+"ve azalır ömürler\""))
         self.line_kullanici.setPlaceholderText(_translate("Form", "Kullanıcı adınızı giriniz..."))
         self.line_sifre.setPlaceholderText(_translate("Form", "Şifrenizi giriniz..."))
         self.button_giris.setText(_translate("Form", "Giriş Yap"))
