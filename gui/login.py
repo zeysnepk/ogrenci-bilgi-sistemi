@@ -418,8 +418,6 @@ class Ui_Form(object):
         self.line_kullanici.setPlaceholderText(_translate("Form", "Kullanıcı adınızı giriniz..."))
         self.line_sifre.setPlaceholderText(_translate("Form", "Şifrenizi giriniz..."))
         self.button_giris.setText(_translate("Form", "Giriş Yap"))
-        self.label_3.setText(_translate("Form", "Uğurmumcu Mahallesi Şeyh Şamil Caddesi, Fera Life Sitesi, 13CAI, Kartal/İSTANBUL\n"
-"destek@koraydoganakademi.com"))
         self.label_4.setText(_translate("Form", "Toplam Öğrenci Sayısı"))
         self.label_ogr_sayi.setText(_translate("Form", "0"))
         self.label_5.setText(_translate("Form", "Toplam Eğitmen Sayısı"))
