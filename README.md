@@ -12,7 +12,6 @@ Sanat Okulu Projesi, sanat eğitimi alanında veya isterseniz kodu düzenleyerek
 - **Kasa Ekranı**: Ana Kasa(öğrenci ödemeleri - giderler), Gider Kasa, Beklenen Tutar(kayıt sırasında talep edilen tutar), Kalan Ödeme(öğrencilerin toplam ödemesi gereken tutar), Eğitmen Ödemeleri(eğitmenlere yapılacak toplam ödeme) şeklinde grafikle yansıtılır ve son tahsilatları gösterir.
 
 ## Ekran Görüntüleri
- ![Screenshot 2024-09-19 at 21 49 59](https://github.com/user-attachments/assets/d790a5ab-89cc-49ef-8470-fecab128c1b1)
 ![Screenshot 2024-09-19 at 21 51 33](https://github.com/user-attachments/assets/c30fe45d-d77c-45fe-a6d1-0cbab85dee88)
 ![Screenshot 2024-09-19 at 21 51 56](https://github.com/user-attachments/assets/ae067343-b15c-4122-98bb-c2718d437e49)
 ![Screenshot 2024-09-19 at 21 52 08](https://github.com/user-attachments/assets/c70f96d0-4062-43c2-9178-841fc23ab998)
